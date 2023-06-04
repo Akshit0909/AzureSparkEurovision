@@ -1,4 +1,4 @@
-# AzureSparkEurovision: Eurovision Twitter Analysis using Azure Synpase
+# Azure Cloud Service(DBMS Infrastructure) using Azure Synpase
 
 ### Goal
 The end product is a cloud based data base management system that was built using Azure Storage, Elastic Compute instance, Synpase Analytics
