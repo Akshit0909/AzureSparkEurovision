@@ -23,5 +23,5 @@ Multi-Nested JSON Parsing using Spark and running SPARK SQL queries
 ### Contributors
 * [Akshit Miglani](https://www.linkedin.com/in/akshitmiglani/): akshit.miglani09@gmail.com | amiglani@uw.edu 
 * [Ameya Bhamare](https://www.linkedin.com/in/ameyabhamare/): ameyarb@uw.edu
-* Aneesh Dixit
+* [Anish Dixit] (https://www.linkedin.com/in/anish-dixit-aaba4616a/): andixit@uw.edu
 * Ananya Bajaj
