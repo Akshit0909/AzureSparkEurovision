@@ -35,20 +35,29 @@ Multi-Nested JSON Parsing using Spark and running SPARK SQL queries
 
 ### Project structure
 ```
-FitMe/                              # FitMe python module
-├── app.py                          # main entrypoint
+AzureSparkEurovision/               # Project module
+├── code/                           # main entrypoint
+│   ├── preprocessing/
+│       ├── MultiNested_JSON_Processing_AM.ipynb
+│   ├── azure/
+│       ├── Azure_Synpase_HTML_DBMS514.html
+│       ├── Azure_Synpase_PYTHON_DBMS514.py
+│       ├── Azure_Synpase_Notebook_DBMS514.ipynb
 ├── data/
 │   ├── [sample datasets from kaggle]
-├── analysis/                       # Analysis python module
-│   ├── activity_analysis.py        # contains functions for processing activity data
-│   ├── calories_analysis.py        # contains functions for processing calories data
-│   ├── heartrate_analysis.py       # contains functions for processing heart rate data
-│   ├── sleep_analysis.py           # contains functions for processing sleep data
-│   ├── steps_analysis.py           # contains functions for processing steps data
+├── presentation                     # Final Submission
+├── reports                          # Mid Term Report
 ```
 ### Questions
+- Which user has posted the most number of tweets
+- Which countries has the most tweets being actively posted
+- How many tweets are associates with each hashtags
+- For each verified user, what is the percentage of different type of tweets to their overall number of tweets
+- (path finding) Display the thread (replies) of tweets (the tweet, time, id, in reply to id, user name with their screen name) posted by user with screen_name “blcklcfr” in the order in which they were posted. [HINT: use tweet’s id to discover the thread]
+- Are there any three users A, B, C such that: Any of User A’s tweet/s were replied to by B and C and vice versa, and B has replied to any of C’s tweet/s and vice versa. How many such trios exist? Display each trio with names, screen names of users.
 
 ### Data sources
+[Kaggle-Twitter Eurovision 2018 Final](https://www.kaggle.com/datasets/patrickjoan/twitter-data-from-2018-eurovision-final)
 
 ### Contributors
 * [Akshit Miglani](https://www.linkedin.com/in/akshitmiglani/): akshit.miglani09@gmail.com | amiglani@uw.edu 
