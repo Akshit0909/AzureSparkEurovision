@@ -36,7 +36,7 @@ Multi-Nested JSON Parsing using Spark and running SPARK SQL queries
 ### Project structure
 ```
 AzureSparkEurovision/               # Project module
-├── code/                           # main entrypoint
+├── code/                           # Main entrypoint
 │   ├── preprocessing/
 │       ├── MultiNested_JSON_Processing_AM.ipynb
 │   ├── azure/
