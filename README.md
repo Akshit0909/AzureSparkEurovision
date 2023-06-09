@@ -4,7 +4,7 @@
 The end product is a cloud based data base management system that was built using Azure Storage, Elastic Compute instance, Synpase Analytics
 
 ### Technical Theme 
-Multi-Nested JSON Parsing using Spark and running SPARK SQL queries
+Multi-Nested JSON Parsing using Spark and SPARK SQL queries
 
 ## Development Environment
 *This repo was built using Python 3.10, Azure Workspace, Azure Synapse Analytics*
